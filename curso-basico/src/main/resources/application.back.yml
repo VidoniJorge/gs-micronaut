@@ -1,0 +1,20 @@
+micronaut:
+  server:
+    cors:
+      enabled: true
+      configurations:
+        all:
+          allowedMethods:
+            - POST
+            - PUT
+          exposedHeaders:
+            - Content-Type
+            - Authorization
+        web:
+          allowedOrigins:
+            - http://foo.com
+            - ^http(|s):\/\/www\.google\.com$
+          allowedHeaders:
+            - Content-Type
+            - Authorization
+          maxAge: 3600 # 1 hour
