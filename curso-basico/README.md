@@ -7,8 +7,8 @@ __Basic__:
 * [x] Develop a simple Rest Service.
 * [x] Configure and expose a OpenAPI Definition.
 * [x] Configure API Versioning. 
-* [ ] Configure an API Security (HTTPS, CORS, etc)
-* [ ] Develop unit tests with asserts.
+* [x] Configure an API Security (HTTPS, CORS, etc)
+* [x] Develop unit tests with asserts.
 * [x] Develop an error handler.
 * [x] Implements fields validation.
 
@@ -594,23 +594,3 @@ y queremos que el campo descripción no pueda contener datos vacíos y por otro 
 @NotBlank       | Nos permite indicar el atributo no puede ser nulo
 @NotNull        | Nos permite indicar el atributo no puede tener un valor vacío
 @Valid          | Nos permite indicar que queremos validar el body
-
-------------
-------------
-------------
-agregar en las ppt
-Este es un enfoque similar adoptado por herramientas como Dagger de Google , que está diseñado principalmente con Android en mente. Micronaut, por otro lado, está diseñado para construir microservicios del lado del servidor y proporciona muchas de las mismas herramientas y utilidades que Spring pero sin usar reflexión o almacenar en caché cantidades excesivas de metadatos de reflexión.
-
-Los objetivos del contenedor Micronaut IoC se resumen como:
-* Utilice la reflexión como último recurso
-* Evite los proxies
-* Optimice el tiempo de inicio
-* Reducir la huella de memoria
-* Proporcionar un manejo de errores claro y comprensible
-
-* The goals of the Micronaut IoC container are summarized as:
-* Use reflection as a last resort
-* Avoid proxies
-* Optimize start-up time
-* Reduce memory footprint
-* Provide clear, understandable error handling
